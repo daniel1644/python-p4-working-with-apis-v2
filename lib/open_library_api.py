@@ -4,7 +4,7 @@ import json
 
 class Search:
 
-    def get_search_results(self):
+    def get_search_results(self): 
         search_term = "the lord of the rings"
 
         search_term_formatted = search_term.replace(" ", "+")
